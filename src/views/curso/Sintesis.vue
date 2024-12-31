@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 Esta unidad analiza el sistema de ciencia, tecnología e innovación en Colombia, describiendo el marco institucional, la educación y formación en CTeI, así como las iniciativas de investigación y desarrollo que fomentan la innovación en sectores estratégicos. También revisa el ecosistema de emprendimiento que promueve la democratización del conocimiento, retos y oportunidades para el país.
+    p(data-aos="fade-up").mb-5 La Unidad 2: Funciones de la administración, proporciona los fundamentos esenciales para comprender y aplicar los procesos administrativos en contextos organizacionales. A través del estudio de las funciones principales de planeación, organización, dirección y control, los estudiantes adquieren herramientas para alinear estrategias con objetivos empresariales, optimizar recursos y tomar decisiones fundamentadas. Esta unidad fomenta la comprensión de dinámicas claves como la estructuración de organigramas, la departamentalización y el liderazgo estratégico, elementos que permiten una gestión eficiente y efectiva. El enfoque práctico de los contenidos busca desarrollar competencias para identificar problemas, proponer soluciones y garantizar el éxito en escenarios organizacionales diversos.
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded

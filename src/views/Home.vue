@@ -22,8 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los inicios de la humanidad, la administración ha sido clave para organizar y optimizar los recursos en cualquier tipo de entidad social. En esta primera unidad, se exploran los fundamentos de la administración, sus características y su relevancia en el entorno empresarial. Se analizarán las principales definiciones, principios y enfoques históricos que sustentan esta disciplina, comprendiendo cómo sus procesos permiten alcanzar los objetivos organizacionales de manera eficiente.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para desarrollar habilidades esenciales que impulsarán tu gestión en entornos dinámicos y competitivos!
+              p.descripcion.mb-4 La Unidad 2: Funciones de la administración aborda los pilares fundamentales de la gestión empresarial: planeación, organización, dirección y control, elementos esenciales para alcanzar objetivos organizacionales, optimizar recursos y garantizar el éxito en entornos dinámicos. En esta unidad se explorará cómo estas funciones permiten alinear estrategias con metas, a través de conceptos clave como la estructuración de organigramas, la departamentalización y las dinámicas de liderazgo, complementados con herramientas prácticas y análisis de casos reales. Los estudiantes desarrollarán habilidades para identificar problemas, formular soluciones efectivas y garantizar que las operaciones se ejecuten conforme a los estándares organizacionales, adquiriendo una visión integral de la gestión que fortalezca su capacidad para tomar decisiones estratégicas y operativas. 
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para liderar con confianza y eficacia!
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
