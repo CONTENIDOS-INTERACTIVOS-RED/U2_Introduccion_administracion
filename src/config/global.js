@@ -61,25 +61,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo:
+          'Organización: estructura organizacional y asignación de recursos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: 'Elementos fundamentales a considerar en la organización',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '',
+            titulo: 'Elementos fundamentales a considerar en la organización',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: '',
+            titulo: 'Estructura y diseño organizacional',
             hash: 't_2_3',
           },
         ],
