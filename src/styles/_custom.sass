@@ -37,6 +37,14 @@
 
 .brounded-sm
   border-radius: 8px !important
+.titulo-figura
+  margin-bottom: 24px
+  border-left: 0px solid
+  padding: 5px 0 5px 0px
+  h5
+    display: inline-block
+    margin-right: 10px
+    margin-bottom: 0
 //*********************************************************************************************
 .bg-color
   &-1
@@ -57,6 +65,10 @@
     background-color: #D8D4DB
   &-9
     background-color: #88BBA9
+  &-10
+    background-color: #FAE8E3
+  &-11
+    background-color: #EDAE3B
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -76,6 +88,12 @@
     background-position: bottom
   &-5
     background-image: url("../assets/bg/green-icons.svg") !important
+    background-position: center
+  &-6
+    background-image: url("../assets/bg/orange-icons.svg") !important
+    background-position: center
+  &-7
+    background-image: url("../assets/bg/orange-up.svg") !important
     background-position: center
 //*********************************************************************************************
 .border-top.color-primario
@@ -97,7 +115,10 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-
+.ml-cus
+  margin-left: 1.5rem
+  @media screen and (max-width: $bp-max-sm)
+    margin-left: 0
 
 
 $custom-card-border-radius: 0px
@@ -238,3 +259,7 @@ i.fas.fa-quote-left
 .lista-ol--cuadro__vineta.color-acento-contenido
   background-color: $color-acento-contenido !important
   color: #fff !important
+.img-infografica
+  background-color: transparent !important
+.lista-ul--color.color-primario li > i:first-of-type
+  color:  $color-primario !important
