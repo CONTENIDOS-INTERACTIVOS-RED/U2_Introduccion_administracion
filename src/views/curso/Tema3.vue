@@ -280,7 +280,7 @@
                   p <strong>Anexo. </strong> Herramientas y fases del control
 
 
-    .bg-full-width.bg-color-4.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-4.mb-5(data-aos="fade-up")
       .px-5.py-3
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
@@ -289,7 +289,10 @@
             p.mb-0 El control es un proceso cíclico, ya que las acciones correctivas implementadas generan nuevos estándares que, a su vez, serán evaluados en un ciclo posterior. Este enfoque asegura la mejora continua en los procesos organizacionales. 
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 
 
@@ -300,7 +303,183 @@
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: '--',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué característica distingue a la planeación formal de la informal?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Su enfoque en la participación del equipo operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La espontaneidad en la definición de estrategias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El uso de un proceso sistemático y documentado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La flexibilidad para adaptarse a cambios inesperados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! La planeación formal sigue un proceso sistemático y documentado, con planes escritos y cronogramas claros, a diferencia de la informal, que carece de estructura.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué beneficio proporciona la planeación al reducir la incertidumbre en una organización?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Elimina completamente los riesgos en las operaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite prever situaciones futuras y adaptarse mejor a cambios.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Facilita la implementación de procesos más complejos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reduce la necesidad de análisis estratégico continuo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La planeación ayuda a prever situaciones futuras, lo que permite a la organización adaptarse mejor a cambios inesperados y mitigar riesgos potenciales.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál es una de las actividades principales en el diagnóstico estratégico dentro del proceso de planeación?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La formulación de cronogramas detallados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La eliminación de debilidades organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La implementación inmediata de planes de acción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El análisis del entorno interno y externo de la organización.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! El diagnóstico estratégico evalúa factores internos y externos para entender el entorno organizacional, utilizando herramientas como el análisis FODA.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué resultado busca alcanzar el análisis FODA en la planeación estratégica?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Identificar los recursos necesarios para cada proyecto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Formular estrategias que aprovechen fortalezas y oportunidades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar los niveles de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Garantizar la asignación equitativa de tareas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El análisis FODA permite a la organización formular estrategias que maximicen sus fortalezas y oportunidades, mientras minimizan debilidades y amenazas, asegurando competitividad y eficacia.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'La misión y la visión de una empresa son elementos estratégicos fundamentales que guían su rumbo y propósito. Mientras que la misión describe su razón de ser, la visión proyecta el futuro deseado, proporcionando dirección a largo plazo. Ambas deben ser claras y alineadas con los objetivos organizacionales. Teniendo en cuenta lo anterior ¿Qué elemento de la misión ayuda a diferenciar a una organización de sus competidores en el mercado?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La satisfacción de necesidades del cliente y sus expectativas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'La flexibilidad en la gestión de proyectos empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La definición de metas claras para los colaboradores internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La inclusión de objetivos tangibles dentro del plan estratégico.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Satisfacer necesidades del cliente con productos o servicios únicos permite diferenciar a la organización, fortaleciendo su posicionamiento y atractivo en el mercado.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
