@@ -364,7 +364,41 @@
                   p.mb-0 #[b Plan direccional:] Mejorar la calidad a lo largo del tiempo.
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://revistas.unilibre.edu.co/index.php/revista_cultural/article/download/3979/3348/6624' target='_blank' rel='noopener noreferrer') Bautista Moreno, G. L., Benavides Alfonso, E. F. & Buitrago Sabala, J. F. (2015). El proceso administrativo: una aproximación conceptual.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/ereader/tecnologicadeloriente/41174?page=37' target='_blank' rel='noopener noreferrer') Blandez Ricalde, M. D. G. & Blandez Ricalde, M. de G. (2014). Proceso administrativo. Editorial Digital UNID, 2014.
+
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://gemini.google.com/app' target='_blank' rel='noopener noreferrer') Gemini.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtube.com/watch?v=mdr7tnNnI9U&t=288s' target='_blank' rel='noopener noreferrer') Conduce Tu Empresa. (2020). ¿Cuáles son las etapas de la Administración? | Planeación, Organización, Dirección y Control.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=jjB_QuFqFKs&t=554s' target='_blank' rel='noopener noreferrer') CRS ACADEMICO. (2020). El Proceso Administrativo. Etapas y Fases.
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

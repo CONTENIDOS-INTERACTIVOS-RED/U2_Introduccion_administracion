@@ -141,7 +141,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="PEND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
     #t_3_5.titulo-segundo(data-aos="fade-up")
       h2 #[span 3.5] Control
@@ -287,7 +287,40 @@
             img(src='@/assets/curso/t3/13.svg', style='max-width: 90px').mx-auto
           .col-lg
             p.mb-0 El control es un proceso cíclico, ya que las acciones correctivas implementadas generan nuevos estándares que, a su vez, serán evaluados en un ciclo posterior. Este enfoque asegura la mejora continua en los procesos organizacionales. 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/29733' target='_blank' rel='noopener noreferrer') Agüero. (2009). Dirección y control. El Cid Editor.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/tecnologicadeloriente/titulos/101298' target='_blank' rel='noopener noreferrer') Klein, P. G. (2002). Función empresarial y control de la dirección de la empresa - Libertas 31. Eseade.
+            
+           
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.optimove.com/' target='_blank' rel='noopener noreferrer') Optimove.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=LPY_jCQ3Hz8&t=2s' target='_blank' rel='noopener noreferrer') Valerie Auspont Vergara. (2020). Dirección y Control - Pilares Administrativos.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=AidhnRJk7kw&t=6s' target='_blank' rel='noopener noreferrer') Autoestudio10. (2021). Proceso Administrativo parte 2: Dirección y Control.
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5

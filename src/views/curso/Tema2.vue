@@ -92,7 +92,7 @@
             img(src='@/assets/curso/t2/10.svg', style='max-width: 90px').mx-auto
           .col-lg
             p.mb-0 El análisis de la estructura y diseño organizacional es fundamental para comprender cómo se agrupan y coordinan las actividades en una empresa, permitiendo una gestión más eficiente y estructurada.
-    .bg-full-width.bg-color-3.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-3.mb-5(data-aos="fade-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-8
@@ -107,7 +107,38 @@
              img(src='@/assets/curso/t2/11.png', alt='')
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://reunir.unir.net/bitstream/handle/123456789/2336/Gemma_Moron_Molina_B.pdf' target='_blank' rel='noopener noreferrer') Morón-Molina, G. (2014). La Organización como clave del éxito empresarial.
 
+            
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://scholar.google.es/schhp?hl=es' target='_blank' rel='noopener noreferrer') Google académico.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=QqcjI-zZyb8' target='_blank' rel='noopener noreferrer') Lifeder Edu. (2022). ¿Qué es el PROCESO ADMINISTRATIVO y cuáles son sus etapas?
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=Bi8PyoJ-8pQ' target='_blank' rel='noopener noreferrer') Autiestudio10. (2021). Proceso Administrativo parte 1: Planeación y organización.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>
