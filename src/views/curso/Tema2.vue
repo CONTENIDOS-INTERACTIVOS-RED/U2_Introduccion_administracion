@@ -60,7 +60,7 @@
                 img(src='@/assets/curso/t2/7.png', alt='Diagrama organizacional en papel')
             .col-sm-12.col-lg-7
               h5 Jerarquía
-              p Dentro de una estructura organizacional, la jerarquía establece los niveles de autoridad y responsabilidad. Esta asegura que haya una cadena de mando definida, lo que facilita la toma de decisiones y la delegación de tareas. La jerarquía permite que los empleados comprendan su posición dentro de la organización y sus responsabilidades en relación con otros miembros del equipo.
+              p.mb-0 Dentro de una estructura organizacional, la jerarquía establece los niveles de autoridad y responsabilidad. Esto asegura que haya una cadena de mando diáfana, lo que facilita la toma de decisiones y la delegación de tareas. La jerarquía permite que los empleados comprendan su posición dentro de la organización y sus responsabilidades en relación con otros miembros del equipo.
 
           // Simplificación de funciones
           .row.align-items-center.p-4.p-md-5

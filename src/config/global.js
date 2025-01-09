@@ -260,7 +260,7 @@ export default {
     {
       termino: 'Supervisión',
       significado:
-        'Observación directa de las actividades diarias para asegurar que los empleados sigan los procedimientos y cumplan con los estándares establecidos.',
+        'Supervisión directa de las actividades diarias para asegurar que los empleados sigan los procedimientos y cumplan con los estándares establecidos.',
     },
   ],
   complementario: [],
